@@ -33,3 +33,7 @@ function Buscar(){
 function salir(){
     window.close();
 }
+function reinicio(){
+    document.getElementById("mensaje").value="";
+    document.getElementById("palabra").value="";
+}
